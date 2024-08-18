@@ -3,9 +3,6 @@ import MapComponent from "@/app/components/MapComponent";
 import dynamic from "next/dynamic";
 import { useParams } from 'next/navigation';
 import React from 'react';
-import Image from "next/image";
-
-// Динамический импорт компонента карты
 
 // Пример данных для событий
 const eventData: Record<string, {
@@ -62,7 +59,7 @@ const EventDetails = () => {
     <div className="px-4 py-8 max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-center mb-8 text-[#254D32]">{event.title}</h1>
       
-      <Image src={event.imageUrl} alt={event.title} className="w-full h-72 object-cover rounded-lg shadow-lg mb-8" />
+      <img src={event.imageUrl} alt={event.title} className="w-full h-72 object-cover rounded-lg shadow-lg mb-8" />
       
       <div className="bg-white p-6 rounded-lg shadow-lg space-y-8">
         <div>

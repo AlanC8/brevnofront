@@ -15,12 +15,12 @@ const eventsData: Array<{
     },
     {
       id: 2,
-      imageUrl: "https://tengrinews.kz/userdata/opinion/opinion_982/aee2c08be93a1d2302841409ea474590.JPG",
+      imageUrl: "https://avatars.mds.yandex.net/get-altay/6333331/2a0000017fca11c932081b961f70fd4bd378/orig",
       title: "Возможность набрать очки",
     },
     {
       id: 3,
-      imageUrl: "https://tengrinews.kz/userdata/opinion/opinion_982/aee2c08be93a1d2302841409ea474590.JPG",
+      imageUrl: "https://avatars.mds.yandex.net/get-altay/248099/2a00000187476e9e452128d891dad8719690/XXL_height",
       title: "Возможность набрать очки",
     },
   ];

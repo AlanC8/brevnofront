@@ -5,6 +5,7 @@ import Link from "next/link";
 import apiClient from "@/app/services/Interceptors";
 import { UserService } from "@/app/services/UserService";
 import { useRouter } from "next/navigation";
+import axios from "axios";
 
 export default function LoginPage() {
   const router = useRouter();
