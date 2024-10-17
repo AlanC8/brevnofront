@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = axios.create({
   // baseURL: "http://localhost:3001",
-  baseURL: "https://brevnoback-production.up.railway.app",
+  baseURL: "brevnoback-production-d28b.up.railway.app",
   headers: {
     "Content-Type": "application/json",
   }
